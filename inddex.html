@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first portfolio</title>
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
@@ -19,19 +22,26 @@
         <nav>
             <h1 class="nav-title">Ash<span class="primary-color">T</span>ru</h1>
             <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Resource</a></li>
-                <li><a href="#"><Button class="btn-primary">Hire Me</Button></a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Service</a></li>
+                <li><a href="https://texonltd.com/blogs">Resource</a></li>
+                <li class="hire-me">
+                    <a href = "mailto:ashraful@texonltd.com">
+                    <Button class="btn-primary">Hire Me</Button>
+                    </a>
+                    </li>
             </ul>
         </nav>
+
         <div class="banner">
             <div class="banner-content">
                 <h3 class="banner-greeting">Hi, I'm</h3>
                 <h1 class="banner-title">AshTru</h1>
                 <p class="description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary contact-me">Contact Me</button>
+                <a href="./images/Resume_Md.Ashraful_Islam_DUET.pdf" download="AshTru's CV"><button class="btn-primary">
+                    <i class='bx bxs-download' ></i>Download CV</button></a>
+
+                <a href="#Contact"><button class="btn-primary contact-me"><i class='bx bx-phone-call' ></i>Contact Me</button></a>
             </div>
             <div>
                 <img class="developer-img" src="./images/hardy.png" alt="Developer image">
@@ -86,7 +96,7 @@
             </div>
         </section>
         
-        <section class="skills">
+        <section id="skills" class="skills">
             <div class="skills-heading">
                 <h2 class="body-header">What I Do</h2>
                 <p class="body-description">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
@@ -117,15 +127,113 @@
                 </div>
 
             </div>
+        
         </section>
 
-        <section>
-            
+        <section id="portfolio" class="Resume">
+            <h2 class="body-header">A summary of My Resume</h2>
+
+            <div class="resume-desc">
+                <div class="resume-info">
+                    <h3>My Education</h3>
+                <h4>Master in Computer Engineering</h4>
+                <p class="uni-name">Harvard University / 2015 - 2017</p>
+                <p>List skill/technologies here. You can change the icon above 
+                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <hr>
+                </div>
+
+                <div class="resume-info">
+                    <h3>My Education</h3>
+                <h4>Master in Computer Engineering</h4>
+                <p class="uni-name">Harvard University / 2015 - 2017</p>
+                <p>List skill/technologies here. You can change the icon above 
+                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="resume-desc">
+                <div class="resume-info">
+                <h4>Master in Computer Engineering</h4>
+                <p class="uni-name">Harvard University / 2015 - 2017</p>
+                <p>List skill/technologies here. You can change the icon above 
+                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <hr>
+                </div>
+
+                <div class="resume-info">
+                <h4>Master in Computer Engineering</h4>
+                <p class="uni-name">Harvard University / 2015 - 2017</p>
+                <p>List skill/technologies here. You can change the icon above 
+                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="resume-desc">
+                <div class="resume-info">
+                <h4>Master in Computer Engineering</h4>
+                <p class="uni-name">Harvard University / 2015 - 2017</p>
+                <p>List skill/technologies here. You can change the icon above 
+                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    
+                </div>
+
+                <div class="resume-info">
+                <h4>Master in Computer Engineering</h4>
+                <p class="uni-name">Harvard University / 2015 - 2017</p>
+                <p>List skill/technologies here. You can change the icon above 
+                    to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+
+            <a href="./images/Resume_Md.Ashraful_Islam_DUET.pdf" download="AshTru's CV"><button class="btn-primary">
+                <i class='bx bxs-download' ></i>Download CV</button></a>
         </section>
     </main>
 
-
     <footer>
+        <section class="footer1">
+            <div class="lets-connect">
+                <h3>Lets Connect</h3>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <img src="./images/icons/facebook.png" alt="facebook">
+                <img src="./images/icons/insta.png" alt="Instragram">
+                <img src="./images/icons/twitter.png" alt="Twitter">
+    
+            </div>
+
+
+            <div id="Contact" class="form">
+                <h3>Let's Drop a Message</h3>
+                <form action="">
+                    <input class="input-box" type="text" placeholder="Your Name"> <br>
+                    <input class="input-box" type="email" placeholder="Your Email"><br>
+                    <textarea class="text-area" name="" id="" cols="30" rows="10">Message</textarea><br>
+                    <Button class="btn-primary">Submit</Button>
+                </form>
+
+            </div>
+
+        </section>
+
+    <section>
+        <div class="footer2">
+            <hr class="footer2-line" style="margin:0px 50px 10px">
+
+            <div class="footer2-container">
+                <div class="copyright" style="margin-left: 40px;">
+                    <p class="description">© 2023 AshTru Limited —@ashtrulimited</p>
+                </div>
+                <div class="footer2-more-info" style="margin-right: 40px;">
+                    <p class="more">News</p>
+                    <p class="more">Ebook</p>
+                    <p class="more">Career</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     </footer>
 </body>
